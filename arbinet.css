@@ -790,7 +790,7 @@ footer .credit a {
     margin-left: 42%;
   }
 }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 160px) {
   html {
     font-size: 50%;
   }
