@@ -790,7 +790,7 @@ footer .credit a {
     margin-left: 42%;
   }
 }
-@media screen and (min-width: 160px) {
+@media screen and (min-width: 320px) {
   html {
     font-size: 50%;
   }
@@ -819,7 +819,7 @@ footer .credit a {
     top: 100%;
     right: -100%;
     background-color: #007bff;
-    width: 80%;
+    width: 40%;
     height: 100vh;
     z-index: 2;
     transition: 1.5s;
@@ -836,11 +836,26 @@ footer .credit a {
   }
   .navbar .navbar-nav a,
   .dropdown {
-    color: silver;
+    color: white;
     display: block;
     margin: 1.5rem;
     padding: 0.5rem;
     font-size: 2rem;
+  }
+
+  .navbar .navbar-nav a:hover {
+    color: skyblue;
+  }
+  .navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #16fafb;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+  }
+  .navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
   }
   .dropdown-content {
     display: none;
@@ -887,6 +902,7 @@ footer .credit a {
   }
   .konten3-container h2 {
     font-size: 17px;
+    margin-top: -5rem;
     margin-right: 1rem;
     font-weight: bold;
   }
@@ -894,7 +910,8 @@ footer .credit a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 1rem;
-    margin: 2rem;
+    margin-left: 2.5rem;
+    /* margin: 2rem; */
   }
   .ragam-konten3 .container img {
     margin-top: 30rem;
@@ -925,6 +942,7 @@ footer .credit a {
     width: 92.5%;
     margin-top: 3rem;
   }
+
   .more {
     margin-left: 35%;
     background-color: #050e1b;
