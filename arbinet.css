@@ -799,6 +799,8 @@ footer .credit a {
   }
   #hamburger {
     display: flex;
+    position: relative;
+    margin-top: -5rem;
   }
   .hamburger.showx .x {
     opacity: 1;
@@ -902,7 +904,7 @@ footer .credit a {
   }
   .konten3-container h2 {
     font-size: 17px;
-    margin-top: -5rem;
+    margin-top: -3rem;
     margin-right: 1rem;
     font-weight: bold;
   }
@@ -910,7 +912,7 @@ footer .credit a {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
     gap: 1rem;
-    margin-left: 2.5rem;
+    margin-left: 5rem;
     /* margin: 2rem; */
   }
   .ragam-konten3 .container img {
@@ -942,7 +944,14 @@ footer .credit a {
     width: 92.5%;
     margin-top: 3rem;
   }
-
+  .produck .content button {
+    font-size: 1.3rem;
+    font-weight: bold;
+    background-color: #007bff;
+  }
+  .produck .content button a {
+    color: #050e1b;
+  }
   .more {
     margin-left: 35%;
     background-color: #050e1b;
