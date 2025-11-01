@@ -17,7 +17,7 @@ html {
 /* Basic styling for the body */
 body {
   font-family: Arial, sans-serif;
-  background-color: lightgrey;
+  background-color: white;
   margin: 0;
   padding: 0;
 }
@@ -45,7 +45,7 @@ body {
   display: block;
 }
 .navbar .navbar-nav a {
-  color: rgb(55, 0, 255);
+  color: blue;
   display: inline-block;
   font-size: 1.2rem;
   margin: 0 1rem;
@@ -169,6 +169,7 @@ body {
 }
 /* end navbar */
 .hero img {
+  margin-top: 5rem;
   width: 100%;
   position: relative;
   z-index: -1;
@@ -267,6 +268,9 @@ body {
 /* hero end */
 
 /* konten 1 start */
+.konten1 {
+  margin-top: -4.5rem;
+}
 .grid-konten1 {
   display: grid;
   background: linear-gradient(-50deg, #007bff 40%, white 60%);
@@ -277,7 +281,6 @@ body {
   padding: 2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: -3rem;
   box-shadow: 0 0 15px black;
   z-index: 2;
 }
@@ -290,10 +293,11 @@ body {
 }
 .judul-konten1 h2 {
   color: #050e1b;
+  margin-bottom: 0.5rem;
 }
 .grid-konten1 .judul-konten1 p {
   font-size: 0.8rem;
-  color: #050e1b;
+  color: yellow;
 }
 .grid-konten1 .kontak-konten1 {
   text-align: center;
@@ -549,7 +553,6 @@ h3 {
   color: #050e1b;
   text-align: center;
   font-size: 3rem;
-  margin-top: 7rem;
 }
 .Contact .row {
   box-shadow: 0 0 40px black;
@@ -617,10 +620,11 @@ h3 {
   background-color: skyblue;
   color: black;
 }
-.grid-konten1 {
+.grid-kontak1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   gap: 1rem;
+  background: linear-gradient(-50deg, #007bff 55%, white 40%);
   border-radius: 1.2rem;
   align-items: center;
   padding: 2rem;
@@ -629,38 +633,38 @@ h3 {
   margin-top: 2rem;
   box-shadow: 0 0 15px black;
 }
-.grid-konten1 .judul-konten1 {
+.grid-kontak1 .judul-kontak1 {
   justify-content: center;
   text-align: center;
   width: 100%;
   color: #050e1b;
   font-size: 1.5rem;
 }
-.judul-konten1 h2 {
+.judul-kontak1 h2 {
   color: #050e1b;
 }
-.grid-konten1 .judul-konten1 p {
+.grid-kontak1 .judul-kontak1 p {
   font-size: 0.8rem;
   color: #050e1b;
 }
-.grid-konten1 .kontak-konten1 {
+.grid-kontak1 .kontak-konten1 {
   text-align: center;
   width: 100%;
   font-size: 1rem;
 }
-.grid-konten1 .kontak-konten1 i {
+.grid-kontak1 .kontak-konten1 i {
   margin-left: 1rem;
   color: whitesmoke;
   margin-right: 0.5rem;
 }
-.grid-konten1 .kontak-konten1 span {
+.grid-kontak1 .kontak-konten1 span {
   color: whitesmoke;
 }
 
 /* konten 3 end */
 /* footer start */
 footer {
-  background-color: #050e1b;
+  background: linear-gradient(50deg, #007bff 20%, white 80%);
   text-align: center;
   padding: 1rem 0;
   bottom: 0;
@@ -672,23 +676,26 @@ footer .social {
 }
 footer .social a {
   margin: 1rem;
-  color: white;
+  color: black;
 }
 footer .social a:hover {
-  color: white;
+  color: gray;
 }
 footer .links {
   margin-bottom: 1.5rem;
 }
 footer .links a {
-  color: white;
+  color: black;
   padding: 4rem 1rem;
 }
 footer .links a:hover {
-  color: white;
+  color: gray;
+}
+footer .credit p {
+  color: black;
 }
 footer .credit a {
-  color: white;
+  color: black;
   font-size: 10px;
 }
 /* footer end */
